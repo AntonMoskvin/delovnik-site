@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Деловник — задачи, напоминания и планер</title>
+<meta name="description" content="Деловник — бесплатный планировщик задач для Android: голосовой ввод, напоминания, повторяющиеся задачи, категории и резервные копии. Без рекламы и подписок.">
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+    background: #10131a;
+    color: #e7e9ee;
+    line-height: 1.6;
+  }
+  .wrap { max-width: 880px; margin: 0 auto; padding: 32px 20px 64px; }
+  header h1 { font-size: 40px; margin: 0 0 8px; }
+  header p { font-size: 19px; color: #a9b0c0; margin: 0 0 24px; }
+  .buttons { display: flex; flex-wrap: wrap; gap: 12px; margin: 24px 0; }
+  .btn {
+    display: inline-block;
+    padding: 12px 22px;
+    border-radius: 999px;
+    text-decoration: none;
+    font-weight: 600;
+    background: #4f5bd5;
+    color: #fff;
+  }
+  .btn.secondary { background: #232838; color: #e7e9ee; border: 1px solid #3a4056; }
+  h2 { font-size: 22px; margin: 36px 0 12px; }
+  ul { padding-left: 20px; }
+  li { margin: 6px 0; }
+  .shots { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 12px; }
+  .shots img { width: 220px; border-radius: 16px; border: 1px solid #2b3144; background: #171b25; }
+  footer { margin-top: 48px; color: #79808f; font-size: 14px; }
+  a { color: #9aa6ff; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <h1>Деловник</h1>
+    <p>Задачи, напоминания и планер. Бесплатно, без рекламы и подписок.</p>
+  </header>
+
+  <div class="buttons">
+    <!-- Ссылка на карточку RuStore. Проверить после прохождения модерации. -->
+    <a class="btn" href="https://www.rustore.ru/catalog/app/io.github.antonmoskvin.taskmanager">Скачать в RuStore</a>
+    <!-- Google Play: ссылка появится после закрытого теста. -->
+    <span class="btn secondary">Google Play (скоро)</span>
+  </div>
+
+  <h2>Что умеет</h2>
+  <ul>
+    <li>Задачи с подпунктами и прогрессом.</li>
+    <li>Голосовой ввод: скажите «купить хлеб завтра в 18:00, напомни за час» — задача появится с датой и напоминанием.</li>
+    <li>Несколько напоминаний на задачу, точное время.</li>
+    <li>Повторяющиеся задачи: каждый день, неделю, месяц, год.</li>
+    <li>Категории с иконками, цветами и своим порядком.</li>
+    <li>Виды на день, неделю, месяц и год.</li>
+    <li>14 тем оформления, включая тёмную и космическую.</li>
+    <li>Резервная копия: файл на устройстве или приватный GitHub Gist.</li>
+  </ul>
+
+  <h2>Приватность</h2>
+  <p>
+    Задачи хранятся на устройстве. Приложение не требует аккаунта и не отправляет данные на серверы
+    разработчика. Анонимную статистику можно выключить в настройках.
+    <a href="privacy.html">Политика конфиденциальности</a>.
+  </p>
+
+  <h2>Скриншоты</h2>
+  <div class="shots">
+    <img src="shots/day.jpg" alt="Список задач на день">
+    <img src="shots/task.jpg" alt="Экран задачи">
+    <img src="shots/settings.jpg" alt="Настройки">
+  </div>
+
+  <footer>
+    <p>Деловник — приложение для Android. Контакт: delovnikapp@yandex.com</p>
+    <p><a href="privacy.html">Политика конфиденциальности</a></p>
+  </footer>
+
+</div>
+</body>
+</html>
